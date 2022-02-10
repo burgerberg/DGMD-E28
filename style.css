@@ -1,6 +1,14 @@
-h1 {font-size:30px;}
-* {font-family: Arial;}
-ul {list-style-type: none;}
-#info {margin-left: 30px}
-img {width:20%;display:block}
-#hong-kong {font-size:0.7em}
+html {padding: 30px; font-family: Arial;}
+h1 {font-size:28px;}
+
+#me {font-weight:bold;}
+#me ul {list-style-type: none;}
+
+#info {margin-left: 3vw; color:#454}
+
+img {width:20%;display:block;border: 3px black solid;}
+#hong-kong {font-size:0.9em}
+
+form {display:inline-block; padding: 10px; border: 2px black solid; background: #DDD; border-radius:5px}
+input {display:block;height:25px;margin:8px 0px;border:none;}
+input[type="checkbox"] {display:inline;vertical-align:middle}
